@@ -5,13 +5,14 @@ namespace HelloWorld
 {
     static void Main(string[] args)
     {
-            int num1 = 10;
-            double num2 = num1; //Implicit type cast, when we assign a value from less memory to higher memory
+            Console.Write("Enter Name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine(name);
 
-            double num4 = 10.5612D;
-            int num5 = (int)num4; // Explicti type cast, when we assign a value from higher memory to lower memory
+            Console.Write("Enter Age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(age);
 
-            
             
     }
 }
