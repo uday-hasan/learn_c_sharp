@@ -12,3 +12,4 @@ D:\dotnet\w3\w3\obj\Debug\net9.0\refint\w3.dll
 D:\dotnet\w3\w3\obj\Debug\net9.0\w3.pdb
 D:\dotnet\w3\w3\obj\Debug\net9.0\w3.genruntimeconfig.cache
 D:\dotnet\w3\w3\obj\Debug\net9.0\ref\w3.dll
+D:\dotnet\w3\w3\obj\Debug\net9.0\w3.sourcelink.json
