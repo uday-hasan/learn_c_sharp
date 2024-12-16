@@ -1,21 +1,17 @@
 ﻿using System;
-using System.Text.Json;
 namespace HelloWorld
 {
     class Program
 {
     static void Main(string[] args)
     {
-            string name = "Adam John";
-            int id = 60;
-            double price = 12.5;
-            bool isExperienced = true;
-            char letter = 'N';
-            //Comment Checking
-            // Here variable declares like C Programming
-            const double PI = 3.1416;
+            int num1 = 10;
+            double num2 = num1; //Implicit type cast, when we assign a value from less memory to higher memory
 
-            Console.WriteLine(name + " " + id + " " + price + " " + isExperienced + " " + letter + " " + PI);
+            double num4 = 10.5612D;
+            int num5 = (int)num4; // Explicti type cast, when we assign a value from higher memory to lower memory
+
+            
             
     }
 }
