@@ -5,13 +5,13 @@ namespace HelloWorld
 {
     static void Main(string[] args)
     {
-            Console.Write("Enter Name: ");
-            string name = Console.ReadLine();
-            Console.WriteLine(name);
+            //String Interpolation is like JS `` feature
+            string text1 = "Hello";
+            string text2 = "World";
 
-            Console.Write("Enter Age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(age);
+            string finalText = $"Full text is = {text1} {text2}";
+
+            Console.WriteLine(finalText);
 
             
     }
